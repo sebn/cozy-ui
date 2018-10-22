@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IntentModal component renders as expected 1`] = `
+<Unknown
+  className="intentModal"
+  closable={true}
+  closeBtnClassName="intentModal__cross"
+  closeBtnColor={undefined}
+  description={undefined}
+  dismissAction={[Function]}
+  height={undefined}
+  into={undefined}
+  mobileFullscreen={false}
+  overflowHidden={true}
+  overlayClassName={undefined}
+  primaryAction={undefined}
+  primaryText={undefined}
+  primaryType="regular"
+  secondaryAction={undefined}
+  secondaryText={undefined}
+  secondaryType="secondary"
+  size="small"
+  spacing={undefined}
+  title={undefined}
+  width={undefined}
+  wrapperClassName={undefined}
+>
+  <IntentIframe
+    action="ANY"
+    create={[MockFunction createMock]}
+    data={
+      Object {
+        "key": "value",
+      }
+    }
+    onCancel={[Function]}
+    onError={[MockFunction onErrorMock]}
+    onTerminate={[MockFunction onCompleteMock]}
+    type="io.cozy.whatever"
+  />
+</Unknown>
+`;
